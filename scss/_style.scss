@@ -1,0 +1,44 @@
+$colorBrandBlue: #0A2D4B;
+
+.mainer {
+    width: 100%;
+}
+
+.sub-headline {
+    padding: 0 50px;
+    display: flex;
+
+    &__col {
+        flex-grow: 1;
+    }
+}
+
+.logo {
+    margin-top: 45px;
+    &__lavazza {
+        height: 70px;
+        width: 180px;
+    }
+}
+
+.greeting {
+    margin-top: 30px;
+    color: #3da1de;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 0.03em;
+    
+    &::before{
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: -20px;
+        width: 10px;
+        height: 10px;
+        border: 3px solid;
+        box-sizing: border-box;
+        border-radius: 50%;
+        color: inherit;
+
+    }
+}

@@ -1,0 +1,119 @@
+.menu {
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+    &__col {
+        flex-grow: 1;
+        display: flex;
+
+        &:nth-of-type(2){
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    &__menuSetWrapper {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover .menu__menu {
+            color: $colorBrandBlue;
+        }
+        &:hover .menu__burger div {
+            background: $colorBrandBlue;
+        }
+    }
+
+    &__menu {
+        margin-left: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.2em;
+        color: lighten($color: $colorBrandBlue, $amount: 50);
+    }
+
+    // BURGER STYLE AND ANIMATION
+
+    &__burger div{
+        background-color: lighten($color: $colorBrandBlue, $amount: 50);
+        width: 20px;
+        height: 2px;
+        margin: 5px;
+        transition: all 0.3s ease;
+    }
+
+
+    // menu links
+
+    &__nav-links {
+        position: absolute;
+        top: 8vh;
+        left: 0;
+        height: 92vh;
+        min-width: 32%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style: none;
+        background-color: #fff;
+        padding-left: 85px;
+        z-index: 10;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in;
+
+        & a{
+            color: $colorBrandBlue;
+            text-decoration: none;
+            font-size: 36px;
+            line-height: 41px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+        }
+
+        & li {
+            opacity: 0;
+        }
+    }
+
+
+    // Active state 
+
+    .nav-active {
+        transform: translateX(0);
+    }
+
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(-150px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    
+    .toggled &__line1 {
+        transform: rotate(-45deg) translate(-5px, 5px);   
+    }
+    .toggled &__line2 {
+        opacity: 0;
+    }
+    .toggled &__line3 {
+        transform: rotate(45deg) translate(-5px, -5px);  
+    }
+
+
+// GLOBE ICON
+
+    &__globe{
+        cursor: pointer;
+        &-icon {
+            width: 20px;
+            height: 20px;
+            fill: $colorBrandBlue;
+        }
+    }
+}
