@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 30px;
-    background: url(/img/william-felker-2VhoU56NF4M-unsplash-edited.jpg) no-repeat center center/cover;
+    background: url(../img/william-felker-2VhoU56NF4M-unsplash-edited.jpg) no-repeat center center/cover;
 
     &__box {
         width: 100%;
@@ -16,16 +16,16 @@
         overflow: hidden;
         border-radius: 2%;
         &--one div{
-            background: url(/img/blog/group-of-friends-hanging-out-933964.jpg)no-repeat center center/cover;
+            background: url(../img/blog/group-of-friends-hanging-out-933964.jpg)no-repeat center center/cover;
         }
         &--two div{
-            background: url(/img/blog/three-men-wearing-orange-tradition-clothes-1117808.jpg)no-repeat center center/cover;
+            background: url(../img/blog/three-men-wearing-orange-tradition-clothes-1117808.jpg)no-repeat center center/cover;
         }
         &--three div{
-            background: url(/img/blog/chris-ainsworth-dsm3fjjaCTs-unsplash.jpg)no-repeat center center/cover;
+            background: url(../img/blog/chris-ainsworth-dsm3fjjaCTs-unsplash.jpg)no-repeat center center/cover;
         }
         &--four div{
-            background: url(/img/blog/mitchell-luo-oPqyy7mZvRE-unsplash.jpg)no-repeat center center/cover;
+            background: url(../img/blog/mitchell-luo-oPqyy7mZvRE-unsplash.jpg)no-repeat center center/cover;
         }
         &:hover div{
             transform: scale(1.05);

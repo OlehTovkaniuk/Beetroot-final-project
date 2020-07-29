@@ -291,27 +291,27 @@ input::-moz-focus-inner {
 }
 
 .sliderhome__slide:first-child {
-  background: url(/img/slider/jeff-ackley-BziC2wJW61E-unsplash.jpg) no-repeat center center/cover;
+  background: url(../img/slider/jeff-ackley-BziC2wJW61E-unsplash.jpg) no-repeat center center/cover;
 }
 
 .sliderhome__slide:nth-child(2) {
-  background: url(/img/slider/clay-banks-Uvr33mRw7CM-unsplash.jpg) no-repeat center center/cover;
+  background: url(../img/slider/clay-banks-Uvr33mRw7CM-unsplash.jpg) no-repeat center center/cover;
 }
 
 .sliderhome__slide:nth-child(3) {
-  background: url(/img/slider/brown-coffee-beans-1323730.jpg) no-repeat center top/cover;
+  background: url(../img/slider/brown-coffee-beans-1323730.jpg) no-repeat center top/cover;
 }
 
 .sliderhome__slide:nth-child(4) {
-  background: url(/img/slider/ardalan-hamedani-W-KuVUHLVWY-unsplash.jpg) no-repeat center center/cover;
+  background: url(../img/slider/ardalan-hamedani-W-KuVUHLVWY-unsplash.jpg) no-repeat center center/cover;
 }
 
 .sliderhome__slide:nth-child(5) {
-  background: url(/img/slider/woman-wearing-white-shirt-looking-on-top-holding-white-715816.jpg) no-repeat center center/cover;
+  background: url(../img/slider/woman-wearing-white-shirt-looking-on-top-holding-white-715816.jpg) no-repeat center center/cover;
 }
 
 .sliderhome__slide:nth-child(6) {
-  background: url(/img/slider/maxime-steckle--1qI-ZTs8XI-unsplash.jpg) no-repeat center bottom/cover;
+  background: url(../img/slider/maxime-steckle--1qI-ZTs8XI-unsplash.jpg) no-repeat center bottom/cover;
 }
 
 .sliderhome__slide:nth-child(6) div {
@@ -453,7 +453,7 @@ input::-moz-focus-inner {
   -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 30px;
-  background: url(/img/william-felker-2VhoU56NF4M-unsplash-edited.jpg) no-repeat center center/cover;
+  background: url(../img/william-felker-2VhoU56NF4M-unsplash-edited.jpg) no-repeat center center/cover;
 }
 
 .blog__box {
@@ -471,19 +471,19 @@ input::-moz-focus-inner {
 }
 
 .blog__card--one div {
-  background: url(/img/blog/group-of-friends-hanging-out-933964.jpg) no-repeat center center/cover;
+  background: url(../img/blog/group-of-friends-hanging-out-933964.jpg) no-repeat center center/cover;
 }
 
 .blog__card--two div {
-  background: url(/img/blog/three-men-wearing-orange-tradition-clothes-1117808.jpg) no-repeat center center/cover;
+  background: url(../img/blog/three-men-wearing-orange-tradition-clothes-1117808.jpg) no-repeat center center/cover;
 }
 
 .blog__card--three div {
-  background: url(/img/blog/chris-ainsworth-dsm3fjjaCTs-unsplash.jpg) no-repeat center center/cover;
+  background: url(../img/blog/chris-ainsworth-dsm3fjjaCTs-unsplash.jpg) no-repeat center center/cover;
 }
 
 .blog__card--four div {
-  background: url(/img/blog/mitchell-luo-oPqyy7mZvRE-unsplash.jpg) no-repeat center center/cover;
+  background: url(../img/blog/mitchell-luo-oPqyy7mZvRE-unsplash.jpg) no-repeat center center/cover;
 }
 
 .blog__card:hover div {
