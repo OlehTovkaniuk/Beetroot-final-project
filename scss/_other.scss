@@ -18,10 +18,12 @@ $colorBrandBlue: #0A2D4B;
     &__lavazza {
         height: 70px;
         width: 180px;
+        fill: $colorBrandBlue;
     }
 }
 
-.greeting {
+#greeting {
+    width: 200px;
     margin-top: 30px;
     color: #3da1de;
     font-size: 18px;

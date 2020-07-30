@@ -1,0 +1,62 @@
+.footer {
+    background: #031B30;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    &__social-list {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        fill: #fff;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            fill: darken($color: #fff, $amount: 20);
+        }
+    }
+
+    .footer__logo-lavazza {
+        fill: white;
+        width: 100px;
+    }
+
+    &__box{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        & ul {
+            font-family: 'Roboto', sans-serif;
+            list-style: none;
+            font-size: 14px;
+            margin: 20px;
+
+            & p {
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin-bottom: 25px;
+                font-weight: 700;
+            }
+
+            & li {
+                margin-top: 10px;
+                font-weight: 300;
+                cursor: pointer;
+                transition: 0.1s;
+                &:hover {
+                    color: darken($color: #fff, $amount: 40);
+                }
+            }
+        }
+    }
+
+}

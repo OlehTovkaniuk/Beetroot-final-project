@@ -26,6 +26,22 @@ const navSlide = () => {
 
 navSlide();
 
+// TYPING EFFECT
+
+var i = 0;
+var txt = 'Hello, happy Thursday!';
+var speed = 70;
+
+function typeWriter() {
+    if (i < txt.length) {
+        document.getElementById("greeting").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", typeWriter());
+
 // HOMEPAGE SLIDER --------------------------------------------
 
 const slides = document.querySelectorAll('.sliderhome__slide'),
